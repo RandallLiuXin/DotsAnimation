@@ -35,15 +35,15 @@ You can find some examples in SampleScene.scene. And the sample graph is Assets/
 1. AnimationGraphBlobberSystem: to convert unity gameobject to dots entity
 2. AnimationSetParameterSystem: will set all the animation parameter based on event
 3. AnimationGraphSystem
-  - UpdateAnimationGraphNodeJob update animation nodes which in the graph
-  - set animation state machine weight based on animation node result
+    - UpdateAnimationGraphNodeJob update animation nodes which in the graph
+    - set animation state machine weight based on animation node result
 5. AnimationStateMachineSystem: init state machine and evaluate transition, then create new state if needed
 6. AnimationChangeStateSystem: handle change state event and blend pose during state transition
 7. UpdateAnimationNodesSystem: update all the animation states
 8. AnimationBlendWeightsSystem: calc all animations blend weight
 9. ClipSamplingSystem
-  - sample optimize skeleton
-  - raise animation events
-  - send animation event to other system
-  - sample root delta
-  - apply root motion to entity
+    - sample optimize skeleton
+    - raise animation events
+    - send animation event to other system
+    - sample root delta
+    - apply root motion to entity

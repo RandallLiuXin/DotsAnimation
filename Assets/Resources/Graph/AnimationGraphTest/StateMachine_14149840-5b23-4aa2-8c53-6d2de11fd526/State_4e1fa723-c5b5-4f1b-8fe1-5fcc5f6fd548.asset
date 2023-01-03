@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b507075677d235d4ab544c027e1748a9, type: 3}
+  m_Name: State_4e1fa723-c5b5-4f1b-8fe1-5fcc5f6fd548
+  m_EditorClassIdentifier: 
+  serializedNodes: []
+  nodes:
+  - rid: 4597815998376312900
+  - rid: 4597815998376312938
+  edges:
+  - GUID: 8fe54bed-dc5d-4bc0-beb7-48ed4004229f
+    owner: {fileID: 11400000}
+    inputNodeGUID: f0f693b1-57cc-4693-9809-dde031ecaa65
+    outputNodeGUID: eec8239b-b5e4-4987-a881-08c22481c0b0
+    inputFieldName: m_ResultPose
+    outputFieldName: m_OutputPose
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  groups: []
+  stackNodes: []
+  pinnedElements:
+  - position:
+      serializedVersion: 2
+      x: 0
+      y: 68
+      width: 150
+      height: 200
+    opened: 1
+    editorType:
+      serializedType: Tinder.Animation.Asset.AnimationExposedParameterView, Assembly-CSharp-Editor,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  exposedParameters: []
+  serializedParameterList: []
+  stickyNotes: []
+  nodeInspectorReference: {fileID: 0}
+  position: {x: 0, y: 0, z: 0}
+  scale: {x: 1, y: 1, z: 1}
+  m_StateName: Dead2
+  m_OwnerGraph: {fileID: 11400000, guid: 7eb813de3cd1d1a41af1f6d21761f0b8, type: 2}
+  m_OwnerStateMachine: {fileID: 11400000, guid: 1c4f327e5743dd04991ae8b94ec07875, type: 2}
+  references:
+    version: 2
+    RefIds:
+    - rid: 4597815998376312900
+      type: {class: FinalPoseNode, ns: Tinder.Animation.Asset, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: f0f693b1-57cc-4693-9809-dde031ecaa65
+        computeOrder: 1
+        position:
+          serializedVersion: 2
+          x: 743
+          y: 234
+          width: 97
+          height: 75
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+    - rid: 4597815998376312938
+      type: {class: SingleClipNode, ns: Tinder.Animation.Asset, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: eec8239b-b5e4-4987-a881-08c22481c0b0
+        computeOrder: 0
+        position:
+          serializedVersion: 2
+          x: 375
+          y: 234
+          width: 323
+          height: 119
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        m_ClipConfigId: 1
+        Clip: {fileID: 7400000, guid: 7f0b16d67db4d0349993822251b989b3, type: 3}
+        m_Speed: 1
+        m_Loop: 0

@@ -1,0 +1,370 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ac42ebd077c149499a9409ee9d53640, type: 3}
+  m_Name: StateMachine_14149840-5b23-4aa2-8c53-6d2de11fd526
+  m_EditorClassIdentifier: 
+  serializedNodes: []
+  nodes:
+  - rid: 4597815930692567395
+  - rid: 4597815930692567396
+  - rid: 4597815930692567397
+  - rid: 4597815930692567398
+  - rid: 4597815930692567399
+  - rid: 4597815930692567400
+  - rid: 4597815930692567401
+  - rid: 4597815930692567402
+  - rid: 4597815998376312896
+  - rid: 4597815998376312897
+  edges:
+  - GUID: 2c76542b-5cdf-4e09-b95b-5896ae2326e9
+    owner: {fileID: 11400000}
+    inputNodeGUID: 15784edc-353a-4d78-aa5e-cfbd7a1ba788
+    outputNodeGUID: b0d08aa6-1521-462c-8c79-49a4a0164f97
+    inputFieldName: Transition
+    outputFieldName: DefaultState
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 3300cda0-f59c-4743-8bbe-cf8f69d8f4e1
+    owner: {fileID: 11400000}
+    inputNodeGUID: a0e3cbc7-3b71-4047-9691-1cd148a9627c
+    outputNodeGUID: 15784edc-353a-4d78-aa5e-cfbd7a1ba788
+    inputFieldName: FromState
+    outputFieldName: ToState
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 0c85e5bb-db27-4c9f-9350-341368a113ad
+    owner: {fileID: 11400000}
+    inputNodeGUID: d4502aee-c474-4de7-90ad-00e072d596d0
+    outputNodeGUID: a0e3cbc7-3b71-4047-9691-1cd148a9627c
+    inputFieldName: Transition
+    outputFieldName: ToState
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 29ab01c4-c021-49cc-9523-05e2a689e38f
+    owner: {fileID: 11400000}
+    inputNodeGUID: 15784edc-353a-4d78-aa5e-cfbd7a1ba788
+    outputNodeGUID: 3a5cb3a2-9b22-48a1-889a-d9102b7a109e
+    inputFieldName: Transition
+    outputFieldName: ToState
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 0c449320-b5b4-42e8-ae50-144a4adf4a94
+    owner: {fileID: 11400000}
+    inputNodeGUID: 849b9227-aa48-4a9e-9568-4f35886afe77
+    outputNodeGUID: 15784edc-353a-4d78-aa5e-cfbd7a1ba788
+    inputFieldName: FromState
+    outputFieldName: ToState
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 3c5b4331-4392-4d5d-9b73-b6d636672f60
+    owner: {fileID: 11400000}
+    inputNodeGUID: 3ec8aa70-6e78-4560-9b91-97018e8374eb
+    outputNodeGUID: d4502aee-c474-4de7-90ad-00e072d596d0
+    inputFieldName: FromState
+    outputFieldName: ToState
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: b6f1a162-0886-4d05-8ace-b9c8f32ab4d6
+    owner: {fileID: 11400000}
+    inputNodeGUID: 53102352-0332-4402-b415-3fb39610e437
+    outputNodeGUID: 3ec8aa70-6e78-4560-9b91-97018e8374eb
+    inputFieldName: Transition
+    outputFieldName: ToState
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 0dae4cbc-3c21-41b0-9411-e4b79dcdfe42
+    owner: {fileID: 11400000}
+    inputNodeGUID: 53102352-0332-4402-b415-3fb39610e437
+    outputNodeGUID: 849b9227-aa48-4a9e-9568-4f35886afe77
+    inputFieldName: Transition
+    outputFieldName: ToState
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 57c6d436-4b22-41a8-8e88-df268ea77bb5
+    owner: {fileID: 11400000}
+    inputNodeGUID: 3a5cb3a2-9b22-48a1-889a-d9102b7a109e
+    outputNodeGUID: d4502aee-c474-4de7-90ad-00e072d596d0
+    inputFieldName: FromState
+    outputFieldName: ToState
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: d32ec85a-ecd8-4f14-a8bb-c1dbf07f0d04
+    owner: {fileID: 11400000}
+    inputNodeGUID: 1b025dd3-1936-4c1d-b8a2-4880cf63a150
+    outputNodeGUID: 53102352-0332-4402-b415-3fb39610e437
+    inputFieldName: FromState
+    outputFieldName: ToState
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 064c107a-8b4f-4da8-bb6f-1bbdd1f92474
+    owner: {fileID: 11400000}
+    inputNodeGUID: 4e1fa723-c5b5-4f1b-8fe1-5fcc5f6fd548
+    outputNodeGUID: 1b025dd3-1936-4c1d-b8a2-4880cf63a150
+    inputFieldName: Transition
+    outputFieldName: ToState
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  groups: []
+  stackNodes: []
+  pinnedElements:
+  - position:
+      serializedVersion: 2
+      x: 0
+      y: 52
+      width: 150
+      height: 200
+    opened: 1
+    editorType:
+      serializedType: Tinder.Animation.Asset.AnimationExposedParameterView, Assembly-CSharp-Editor,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - position:
+      serializedVersion: 2
+      x: 2
+      y: 438
+      width: 100
+      height: 100
+    opened: 1
+    editorType:
+      serializedType: GraphProcessor.ExposedParameterView, com.alelievr.NodeGraphProcessor.Editor,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  exposedParameters: []
+  serializedParameterList: []
+  stickyNotes: []
+  nodeInspectorReference: {fileID: 0}
+  position: {x: -124, y: -23, z: 0}
+  scale: {x: 1, y: 1, z: 1}
+  m_OwnerGraph: {fileID: 11400000, guid: 7eb813de3cd1d1a41af1f6d21761f0b8, type: 2}
+  m_StateMachineName: 
+  references:
+    version: 2
+    RefIds:
+    - rid: 4597815930692567395
+      type: {class: EntryStateNode, ns: Tinder.Animation.Asset, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: b0d08aa6-1521-462c-8c79-49a4a0164f97
+        computeOrder: 0
+        position:
+          serializedVersion: 2
+          x: 242
+          y: 266
+          width: 133
+          height: 75
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+    - rid: 4597815930692567396
+      type: {class: StateNode, ns: Tinder.Animation.Asset, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: 15784edc-353a-4d78-aa5e-cfbd7a1ba788
+        computeOrder: -2
+        position:
+          serializedVersion: 2
+          x: 448
+          y: 266
+          width: 175
+          height: 119
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        StateAsset: {fileID: 11400000, guid: a6e87ac83a96eb94693bee5387d20f72, type: 2}
+    - rid: 4597815930692567397
+      type: {class: TransitionNode, ns: Tinder.Animation.Asset, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: a0e3cbc7-3b71-4047-9691-1cd148a9627c
+        computeOrder: -2
+        position:
+          serializedVersion: 2
+          x: 758
+          y: 341
+          width: 200
+          height: 200
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        Data:
+          m_Priority: 1
+          m_HasEndTime: 1
+          m_EndTime: 0.2
+          m_TransitionDuration: 0.2
+          m_Mode: 0
+          m_ValueConditions:
+          - ParameterAssetName: Moving
+            CompareType: 4
+            ParameterType: 0
+            bValue: 1
+            iValue: 0
+            fValue: 0
+          m_RemainingTimeConditions: []
+    - rid: 4597815930692567398
+      type: {class: StateNode, ns: Tinder.Animation.Asset, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: d4502aee-c474-4de7-90ad-00e072d596d0
+        computeOrder: -2
+        position:
+          serializedVersion: 2
+          x: 1073.5
+          y: 266
+          width: 175
+          height: 119
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        StateAsset: {fileID: 11400000, guid: 4c6516b58025ffd41bdae9cc14348f30, type: 2}
+    - rid: 4597815930692567399
+      type: {class: TransitionNode, ns: Tinder.Animation.Asset, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: 3a5cb3a2-9b22-48a1-889a-d9102b7a109e
+        computeOrder: -2
+        position:
+          serializedVersion: 2
+          x: 758
+          y: 105
+          width: 200
+          height: 200
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        Data:
+          m_Priority: 1
+          m_HasEndTime: 1
+          m_EndTime: 0.2
+          m_TransitionDuration: 0.2
+          m_Mode: 0
+          m_ValueConditions:
+          - ParameterAssetName: Moving
+            CompareType: 4
+            ParameterType: 0
+            bValue: 0
+            iValue: 0
+            fValue: 0
+          m_RemainingTimeConditions: []
+    - rid: 4597815930692567400
+      type: {class: TransitionNode, ns: Tinder.Animation.Asset, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: 849b9227-aa48-4a9e-9568-4f35886afe77
+        computeOrder: -2
+        position:
+          serializedVersion: 2
+          x: 583
+          y: 448
+          width: 200
+          height: 200
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        Data:
+          m_Priority: 2
+          m_HasEndTime: 1
+          m_EndTime: 0.2
+          m_TransitionDuration: 0.2
+          m_Mode: 0
+          m_ValueConditions:
+          - ParameterAssetName: Dead
+            CompareType: 4
+            ParameterType: 0
+            bValue: 1
+            iValue: 0
+            fValue: 0
+          m_RemainingTimeConditions: []
+    - rid: 4597815930692567401
+      type: {class: TransitionNode, ns: Tinder.Animation.Asset, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: 3ec8aa70-6e78-4560-9b91-97018e8374eb
+        computeOrder: -2
+        position:
+          serializedVersion: 2
+          x: 1047
+          y: 448
+          width: 200
+          height: 200
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        Data:
+          m_Priority: 2
+          m_HasEndTime: 1
+          m_EndTime: 0.2
+          m_TransitionDuration: 0.2
+          m_Mode: 0
+          m_ValueConditions:
+          - ParameterAssetName: Dead
+            CompareType: 4
+            ParameterType: 0
+            bValue: 1
+            iValue: 0
+            fValue: 0
+          m_RemainingTimeConditions: []
+    - rid: 4597815930692567402
+      type: {class: StateNode, ns: Tinder.Animation.Asset, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: 53102352-0332-4402-b415-3fb39610e437
+        computeOrder: -2
+        position:
+          serializedVersion: 2
+          x: 771
+          y: 510
+          width: 202
+          height: 119
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        StateAsset: {fileID: 11400000, guid: 77960c786fe94ff4882abac955c3036d, type: 2}
+    - rid: 4597815998376312896
+      type: {class: TransitionNode, ns: Tinder.Animation.Asset, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: 1b025dd3-1936-4c1d-b8a2-4880cf63a150
+        computeOrder: -2
+        position:
+          serializedVersion: 2
+          x: 1047
+          y: 561
+          width: 200
+          height: 200
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        Data:
+          m_Priority: 1
+          m_HasEndTime: 1
+          m_EndTime: 0.2
+          m_TransitionDuration: 0.2
+          m_Mode: 0
+          m_ValueConditions: []
+          m_RemainingTimeConditions:
+          - ClipNodeConfigId: 4
+            RemainingTimeType: 0
+            fRemainingTime: 0.2
+    - rid: 4597815998376312897
+      type: {class: StateNode, ns: Tinder.Animation.Asset, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: 4e1fa723-c5b5-4f1b-8fe1-5fcc5f6fd548
+        computeOrder: -2
+        position:
+          serializedVersion: 2
+          x: 1196
+          y: 510
+          width: 175
+          height: 119
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        StateAsset: {fileID: 11400000, guid: 7305726f2f3691b409891133ba737f84, type: 2}

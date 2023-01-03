@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec48b85e6d4bb524193553e943dcc2df, type: 3}
+  m_Name: AnimationGraphTest
+  m_EditorClassIdentifier: 
+  serializedNodes: []
+  nodes:
+  - rid: 4597815930692567393
+  - rid: 4597815930692567394
+  edges:
+  - GUID: cee6af12-38f3-4fdd-a166-021cecaa8af6
+    owner: {fileID: 11400000}
+    inputNodeGUID: 195c94a9-cbc1-4c8b-b2fe-6a7ad7be929b
+    outputNodeGUID: 14149840-5b23-4aa2-8c53-6d2de11fd526
+    inputFieldName: m_ResultPose
+    outputFieldName: m_OutputPose
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  groups: []
+  stackNodes: []
+  pinnedElements:
+  - position:
+      serializedVersion: 2
+      x: 201
+      y: 106
+      width: 268
+      height: 196
+    opened: 0
+    editorType:
+      serializedType: Tinder.Animation.Asset.AnimationExposedParameterView, Assembly-CSharp-Editor,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - position:
+      serializedVersion: 2
+      x: 9
+      y: 40
+      width: 150
+      height: 200
+    opened: 1
+    editorType:
+      serializedType: GraphProcessor.ExposedParameterView, com.alelievr.NodeGraphProcessor.Editor,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  exposedParameters:
+  - rid: 4597815930692567383
+  - rid: 4597815930692567389
+  serializedParameterList: []
+  stickyNotes: []
+  nodeInspectorReference: {fileID: 0}
+  position: {x: 0, y: 0, z: 0}
+  scale: {x: 1, y: 1, z: 1}
+  references:
+    version: 2
+    RefIds:
+    - rid: 4597815930692567383
+      type: {class: BoolParameter, ns: GraphProcessor, asm: com.alelievr.NodeGraphProcessor.Runtime}
+      data:
+        guid: 326e84c1-352f-4cb0-9b53-b8aeadadcf8d
+        name: Moving
+        type: 
+        serializedValue:
+          serializedType: 
+          serializedName: 
+          serializedValue: 
+        input: 1
+        settings:
+          rid: 4597815930692567384
+        val: 0
+    - rid: 4597815930692567384
+      type: {class: ExposedParameter/Settings, ns: GraphProcessor, asm: com.alelievr.NodeGraphProcessor.Runtime}
+      data:
+        isHidden: 0
+        expanded: 1
+        guid: 326e84c1-352f-4cb0-9b53-b8aeadadcf8d
+    - rid: 4597815930692567389
+      type: {class: BoolParameter, ns: GraphProcessor, asm: com.alelievr.NodeGraphProcessor.Runtime}
+      data:
+        guid: 664decf1-0136-4e3e-a121-3ae3c1cd0433
+        name: Dead
+        type: 
+        serializedValue:
+          serializedType: 
+          serializedName: 
+          serializedValue: 
+        input: 1
+        settings:
+          rid: 4597815930692567390
+        val: 0
+    - rid: 4597815930692567390
+      type: {class: ExposedParameter/Settings, ns: GraphProcessor, asm: com.alelievr.NodeGraphProcessor.Runtime}
+      data:
+        isHidden: 0
+        expanded: 1
+        guid: 664decf1-0136-4e3e-a121-3ae3c1cd0433
+    - rid: 4597815930692567393
+      type: {class: StateMachineNode, ns: Tinder.Animation.Asset, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: 14149840-5b23-4aa2-8c53-6d2de11fd526
+        computeOrder: 0
+        position:
+          serializedVersion: 2
+          x: 441
+          y: 361
+          width: 168
+          height: 99
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        StateMachineName: 
+        StateMachineAsset: {fileID: 11400000, guid: 1c4f327e5743dd04991ae8b94ec07875, type: 2}
+    - rid: 4597815930692567394
+      type: {class: FinalPoseNode, ns: Tinder.Animation.Asset, asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: 195c94a9-cbc1-4c8b-b2fe-6a7ad7be929b
+        computeOrder: 1
+        position:
+          serializedVersion: 2
+          x: 652
+          y: 361
+          width: 97
+          height: 75
+        expanded: 0
+        debug: 0
+        nodeLock: 0

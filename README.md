@@ -22,6 +22,30 @@ You can find a sample graph here: Assets/Resources/Graph/AnimationGraphTest.asse
 
 You can refer to SampleScene.scene for a test example.
 
+### How to test
+1. Open SampleScene.scene and press play button
+2. You can see three character. The left one is driven by unity origin animator. The middle one is my unity dots single clip test. The right one is unity dots animator
+
+![image](https://user-images.githubusercontent.com/32125402/210693995-50f4220a-7284-46af-b386-fa2c7329a7d7.png)
+
+3. Open DOTS hierarchy, and select RPG-Character_ecs_animationGraph
+
+![image](https://user-images.githubusercontent.com/32125402/210693921-70881626-2c24-4d3a-9fb6-5d69547d59c3.png)
+
+![image](https://user-images.githubusercontent.com/32125402/210693803-a01e9d63-5e83-4246-b630-5d977eadde21.png)
+
+4. In the Inspector windows, you can find Bool Parameter
+
+![image](https://user-images.githubusercontent.com/32125402/210693757-3a288262-fb69-4f01-b690-3317acc49dbf.png)
+
+5. Set Moving value to true, you will see the character start to run. Set Dead value to true, you will see the character start to play stun animation, after finish playing stun animation, the character will play knockdown
+
+![image](https://user-images.githubusercontent.com/32125402/210694282-9c095635-2348-4b5c-8192-9e8fa79b6764.png)
+
+6. Looks like this
+
+![image](https://user-images.githubusercontent.com/32125402/210694453-f2805ad4-6359-4da4-96e5-6394c83f58b4.png)
+
 ### How It Works
 1. AnimationGraphBlobberSystem: convert unity gameobject to dots entity
 2. AnimationSetParameterSystem: set all the animation parameter based on event

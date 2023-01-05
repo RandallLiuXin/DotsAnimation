@@ -23,8 +23,8 @@ You can find a sample graph here: Assets/Resources/Graph/AnimationGraphTest.asse
 You can refer to SampleScene.scene for a test example.
 
 ### How to test
-1. Open SampleScene.scene and press play button
-2. You can see three character. The left one is driven by unity origin animator. The middle one is my unity dots single clip test. The right one is unity dots animator
+1. Open SampleScene.scene and press play button.
+2. You can see three characters. The left one is driven by unity's original animator. The other two are this library test examples. The middle one is a single animation clip test. The right one is a animation graph test.
 
 ![image](https://user-images.githubusercontent.com/32125402/210693995-50f4220a-7284-46af-b386-fa2c7329a7d7.png)
 
@@ -38,7 +38,7 @@ You can refer to SampleScene.scene for a test example.
 
 ![image](https://user-images.githubusercontent.com/32125402/210693757-3a288262-fb69-4f01-b690-3317acc49dbf.png)
 
-5. Set Moving value to true, you will see the character start to run. Set Dead value to true, you will see the character start to play stun animation, after finish playing stun animation, the character will play knockdown
+5. Set Moving value to true, you will see the character start to run. Set Dead value to true, you will see the character start to play stun animation. After finishing  stun animation, the character will play knockdown animation.
 
 ![image](https://user-images.githubusercontent.com/32125402/210694282-9c095635-2348-4b5c-8192-9e8fa79b6764.png)
 
